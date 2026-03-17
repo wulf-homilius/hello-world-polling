@@ -18,7 +18,7 @@ def parse_args():
 
 
 def fetch_patient_data(count):
-    url = f"https://hapi.fhir.org/baseR4/Patient?_count={count}"
+    url = f"https://hapi.fhir.org/baseR4/Patient?_count={2}"
 
     try:
         response = requests.get(url, timeout=10)
